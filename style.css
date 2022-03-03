@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: darkorange;
+}
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+#topo li{
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#topo a:hover{
+    color:blue;
+}
+
+.cabecario{
+    background-image: url(assents/imagen\ top\ top.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ola{
+    padding-top: 20%;
+    padding-bottom: 25%;
+    text-align:left;
+    color: white;
+    margin-left: 20px; 
+}
+
+#contato{
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#contato:hover{
+    color: darkblue;
+    background-color: whitesmoke;
+    border: 1px solid darkblue;;
+}
+
+.pag-sobre{
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.pag-sobre p{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.texto-imagem{
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 60px;
+}
+
+.texto-imagem h2{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+#foto{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.download{
+    color: black;
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+
+}
+
+.pag-especialidades{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5%;
+
+}
+
+.pag-especialidades h3{
+    padding-bottom: 5%;
+}
+
+.esp-txt{
+    text-align: left;
+    margin-left: 15%;
+    max-width: 50%;
+    font-size: 15px;
+    padding-bottom: 5%;
+    float: left;
+}
+
+.esp-txt h2{
+    padding-bottom: 20px;
+}
+
+.tec{
+    text-align: left;
+}
+
+.pag-contato{
+    text-align: center;
+    background-color: white;
+}
+
+.pag-contato h1{
+    padding-top: 5%;
+}
+
+.pag-contato h3{
+    padding-bottom: 30px;
+}
+
+.fale{
+    text-align: left;
+    margin-left: 15%;
+    max-width: 30%;
+    display: inline-block;
+    padding-bottom: 10%;
+}
+
+.lista{
+    float: left;
+    margin-left: 25%;
+}
+
+#nome{
+    list-style-image: url(icon/pessoa.png);
+    font-size: 15px;
+}
+
+#endereco{
+    list-style-image: url(icon/mundo.png);
+    font-size: 15px;
+}
+
+#email{
+    list-style-image: url(icon/email.png);
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
